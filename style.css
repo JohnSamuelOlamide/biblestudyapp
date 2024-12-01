@@ -81,7 +81,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.schedule-stage__wrapper:nth-child(2)
+/* .schedule-stage__wrapper:nth-child(2)
   .schedule-stage
   > .schedule-stage__title
   > h3,
@@ -125,7 +125,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 .schedule-stage__title {
   position: sticky;
   left: 0;
@@ -227,7 +227,7 @@ body {
   height: 18px;
   width: 18px;
   /* background-color: #fff; */
-  border: 2px solid #fff;
+  border: 2px solid #ffffffaa;
   transition: background-color 0.25s ease;
   border-radius: 4px;
 }
@@ -243,4 +243,33 @@ body {
   transform: rotate(45deg);
   opacity: 0;
   transition: opacity 0.25s ease;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-weight: 900;
+    padding: 10px 0;
+  }
+  .section-container {
+    /* text-align: center; */
+    padding: var(--padding);
+    background: linear-gradient(to bottom, #000000 5%, rgba(0, 0, 0, 0.211));
+    backdrop-filter: blur(3px);
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    top: 0;
+  }
+  .spacer {
+    height: 0;
+  }
+
+  .schedule-stage__title > h3 {
+    word-wrap: break-word;
+    width: 25vw;
+    /* text-wrap: wrap; */
+    font-size: 2rem;
+  }
 }
