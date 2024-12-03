@@ -129,8 +129,8 @@ var topics = [
         weekID: "",
       },
       {
-        title: "Temptation and Overcoming Sin",
-        description: "Temptation and Overcoming Sin",
+        title: "Temptation and Overcoming Sin (Death to Law & Power of Sin)",
+        description: "Temptation and Overcoming Sin (Death to Law & Power of Sin)",
         resources: [{}],
         week: "",
         weekID: "",
